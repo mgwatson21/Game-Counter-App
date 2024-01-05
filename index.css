@@ -1,0 +1,61 @@
+@font-face {
+    font-family: Digital;
+    src: url(digital-counter-7.regular.ttf);
+}
+
+body {
+    margin: 0;
+    background: #1B244A;
+    text-align: center;
+}
+
+h3 {
+    color: #EEEEEE;
+    
+}
+
+h2 {
+  
+    color: #F94F6D;
+    font-size: 80px;
+     
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+.score-container{
+    display: flex;
+    flex-direction: column;
+
+    width: 155px;
+    height: 248px;
+}
+.score {
+    font-family: Digital;
+    display: flex;
+    background: black;
+    width: 155px;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.btn-grp {
+    margin-top: 25px;
+    width: 155px;
+    display: flex;
+    justify-content: space-between;
+}
+button {
+    font-family: Digital;
+    border-radius: 5px;
+    color: #EEEEEE;
+    opacity: 0.5;
+    border: 1px solid #EEEEEE;
+    background-color: transparent; 
+    padding: 10px;
+    widows: 45px;
+    height: 45px;
+}
